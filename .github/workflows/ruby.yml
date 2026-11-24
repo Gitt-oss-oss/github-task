@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v4   # або @v5
+      - uses: actions/checkout@v5   # або @v5
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
